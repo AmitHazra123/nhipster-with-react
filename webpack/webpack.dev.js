@@ -92,7 +92,7 @@ module.exports = options =>
       } */
         },
         {
-          reload: false,
+          reload: true,
         }
       ),
       new webpack.HotModuleReplacementPlugin(),
